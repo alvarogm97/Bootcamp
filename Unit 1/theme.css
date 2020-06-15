@@ -1,0 +1,93 @@
+
+/* Header */
+
+header {
+    text-align: center;
+    width: 100%;
+}
+
+header > h1 {
+    text-decoration: underline;
+}
+
+header > nav {
+
+}
+
+header > nav > ul {
+    padding: 0;
+}
+
+header > nav > ul > li {
+    display: inline;
+    font-size: large;
+    padding: 0 25px;
+}
+
+header > nav > ul > li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* First Div */
+
+div:first-of-type {
+    width: 50%;
+    background-color: rgb(177, 144, 238);
+    padding: 10px;
+}
+
+/* Aside */
+
+aside {
+    width: 30%;
+    background-color: lightgreen;
+    text-align: center;
+    padding: 10px;
+}
+
+aside > img {
+    
+}
+
+/* Timetable */
+
+div:nth-of-type(2) > table, 
+div:nth-of-type(2) > table > thead > tr > th, 
+div:nth-of-type(2) > table > tbody > tr > td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+/*
+div:nth-of-type(2) > table > tbody > tr:first-of-type > td:first-of-type {
+    row: 5;
+}
+
+div:nth-of-type(2) > table > tbody > tr:first-of-type > td:nth-of-type(3) {
+    row-gap: 2;
+}
+*/
+
+/* Subscribe */ 
+
+div:nth-of-type(3) {
+    border: 1px black solid;
+    width: fit-content;
+    padding: 15px;
+}
+
+/* Footer */
+
+footer {
+    margin-bottom: 20px;
+}
+
+footer > form > span {
+    padding: 10px;
+}
+
+footer > form > span:first-of-type {
+    background-color: black;
+    color: white;
+}

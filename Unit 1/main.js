@@ -1,1 +1,1 @@
-console.log('Hola mundo, emitiendo desde Geekshubs Academy');
+console.log('Hello Console World');
