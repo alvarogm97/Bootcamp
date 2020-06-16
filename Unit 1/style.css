@@ -1,8 +1,6 @@
-* {
-    font-size: 1.1em;
+body {
+    margin: 0;
 }
-
-
 /* Header */
 
 header {
@@ -17,11 +15,12 @@ header > button {
     background-color: transparent;
     padding: 0.4em 0.8em;
     cursor: pointer;
+    outline: none;
 }
 
 header > button:hover {
     border: 0.5px lightgrey solid;
-    border-radius: 2px;
+    border-radius: 8px;
 }
 
 header > button:last-child {
@@ -37,14 +36,14 @@ section {
     grid-template-rows: repeat(3, auto);
     grid-template-columns: repeat(2, auto);
     justify-content: center;
-    margin-top: 20em;
+    margin-top: 9em;
 }
 
 section > img {
     grid-row-start: 1;
     grid-column-start: 1;
     grid-column-end: 3;
-    height: 10em;
+    height: 8em;
     justify-self: center;
 }
 
@@ -52,10 +51,13 @@ section > input {
     grid-row-start: 2;
     grid-column-start: 1;
     grid-column-end: 3;
-    height: 3em;
-    width: 45em;
+    height: 0.4em;
+    width: 35em;
     border-radius: 50px;
     padding: 1.5em;
+    outline: none;
+    border: none;
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
 }
 
 section > button {
@@ -64,10 +66,11 @@ section > button {
     width: 10em;
     border: 0.5px transparent solid;
     cursor: pointer;
-    margin: 2.5em 1em 0 0;
+    margin: 2.5em 0.5em 0 0.5em;
     border-radius: 8px;
     background-color: gainsboro;
     color: dimgray;
+    outline: none;
 }
 
 
@@ -106,7 +109,8 @@ footer > div {
 }
 
 footer > div > p {
-    margin: 0.7em 1em;
+    margin: 0.5em 1em;
+    cursor: pointer;
 }
 
 footer > p:nth-of-type(4), p:nth-of-type(5), p:nth-of-type(6){
