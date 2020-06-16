@@ -4,6 +4,7 @@
 header {
     text-align: center;
     width: 100%;
+    background-color: lightpink;
 }
 
 header > h1 {
@@ -52,35 +53,41 @@ aside > img {
 
 /* Timetable */
 
-div:nth-of-type(2) > table, 
-div:nth-of-type(2) > table > thead > tr > th, 
-div:nth-of-type(2) > table > tbody > tr > td {
+#timetable {
+    background-color: lightsalmon;
+}
+
+#timetable > table, 
+#timetable > table > thead > tr > th, 
+#timetable > table > tbody > tr > td {
     border: 1px solid black;
     text-align: center;
 }
 
 /*
-div:nth-of-type(2) > table > tbody > tr:first-of-type > td:first-of-type {
+#timetable > table > tbody > tr:first-of-type > td:first-of-type {
     row: 5;
 }
 
-div:nth-of-type(2) > table > tbody > tr:first-of-type > td:nth-of-type(3) {
+#timetable > table > tbody > tr:first-of-type > td:nth-of-type(3) {
     row-gap: 2;
 }
 */
 
 /* Subscribe */ 
 
-div:nth-of-type(3) {
+.subscribe {
     border: 1px black solid;
     width: fit-content;
     padding: 15px;
+    background-color: lightgoldenrodyellow;
 }
 
 /* Footer */
 
 footer {
     margin-bottom: 20px;
+    background-color: lightgrey;
 }
 
 footer > form > span {
